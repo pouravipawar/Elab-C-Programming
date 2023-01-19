@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int unitconsumed,costperunit,Total;
+    scanf("%d\n %d",&unitconsumed,&costperunit);
+    Total=pow(unitconsumed,costperunit);
+    printf("%d",Total);
+	return 0;
+}

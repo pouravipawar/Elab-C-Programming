@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){ 
+    int U,V,Sum;
+    scanf("%d %d",&U,&V);
+    Sum=U*V/2+((U%2)*(V%2));
+    printf("%d",Sum);
+    return 0;
+}
