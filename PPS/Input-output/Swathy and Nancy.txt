@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    float spacenum;
+    int n;
+    scanf("%f",&spacenum);
+    n=(int)spacenum%10;
+    printf("%d",n);
+
+	return 0;
+}
