@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+    int price,quantity,totexp;
+    scanf("%d %d",&quantity,&price);
+    if(quantity>1000){
+        totexp=(price-(price*0.1))*quantity;
+        printf("%d",totexp);
+    }else{
+        totexp=quantity*price;
+        printf("%d",totexp);
+    }
+	return 0;
+}
