@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+int n,k;
+scanf("%d %d",&n,&k);
+if(n!=k){
+    printf("NO");
+}else{
+    printf("YES");
+}
+	return 0;
+}

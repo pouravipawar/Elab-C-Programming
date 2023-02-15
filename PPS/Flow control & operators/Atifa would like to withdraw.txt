@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+int amtreq;
+float iniamt;
+scanf("%d %f",&amtreq,&iniamt);
+if(amtreq<iniamt){
+float currentbalance=iniamt-amtreq-0.5;
+printf("Current Balance : %.2f",currentbalance);
+printf("\nInitial Balance : %.2f",iniamt);
+}
+else{
+    printf("Invalid Withdrawal Request");
+    printf("\nInitial Balance : %.2f",iniamt);
+}
+	return 0;
+}

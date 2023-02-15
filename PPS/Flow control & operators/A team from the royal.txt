@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+int people_age,weight;
+scanf("%d %d",&people_age,&weight);
+if(weight>40 && people_age>18){
+    printf("Eligible for Donation");
+}else{
+    printf("Not Eligible for Donation");
+}
+	return 0;
+}
