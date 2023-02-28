@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{int numofapples, x, i, c=0; 
+    scanf("%d", &numofapples);
+    int arr[100]={0};
+    for(i=0; i<numofapples; ++i){
+        scanf("%d", &x);
+        arr[x]++;
+    }
+    for(i=0; i<100; ++i){
+        if(arr[i]>1) c += (arr[i]-1);
+    }
+    printf("%d", c);
+
+	return 0;
+}

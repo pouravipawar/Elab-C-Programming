@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{int lights[100001],n,q,i,a,b;
+scanf("%d %d",&n,&q);
+for(i=0;i<n;i++)
+{scanf("%d",&lights[i]);}
+while(q-->0)
+{scanf("%d %d",&a,&b);
+for(i=a-1;i<b;i++)
+lights[i]=!lights[i];
+}
+for(i=0;i<n;i++){
+    printf("%d ",lights[i]);}
+	return 0;
+}
